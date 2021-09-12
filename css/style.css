@@ -1,0 +1,113 @@
+#cont-principal {
+    background: #72d7d3;
+    width:  700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    transition: 1s;
+}
+
+#cont-principal .cuerpo {
+    padding-top: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+#cont-principal .cuerpo .sombrero{
+    position: absolute;
+    top: 84px;
+    left: 225px;
+    transition: 2s;
+}
+
+#cont-principal .cuerpo .zapatoIzq{
+    position: absolute;
+    bottom: -25px;
+    left: 190px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .zapatoDe{
+    position: absolute;
+    bottom: -25px;
+    left: 370px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .nariz{
+    position: absolute;
+    top: 310px;
+    left: 275px;
+    z-index: 1;
+    transition: 3s;
+}
+
+#cont-principal .cuerpo .bigote{
+    position: absolute;
+    top: 430px;
+    left: 260px;
+    
+}
+
+#cont-principal .cuerpo .orejaIzq{
+    position: absolute;
+    top: 220px;
+    left: 160px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .orejaDe{
+    position: absolute;
+    top: 220px;
+    right: 170px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .ojoIzq{
+    position: absolute;
+    top: 250px;
+    left: 260px;
+    transition: 8s;
+}
+
+#cont-principal .cuerpo .ojoDe{
+    position: absolute;
+    top: 250px;
+    left: 340px;
+    transition: 5s;
+}
+
+#cont-principal .cuerpo:hover .ojoDe{
+    transform:rotate(380deg)
+}
+
+#cont-principal .cuerpo:hover .ojoIzq{
+    transform:rotate(380deg)
+}
+
+#cont-principal:hover{
+    background: aquamarine;
+    border-radius: 50%;
+}
+
+#cont-principal .cuerpo:hover .sombrero{
+   transform: rotate(896deg)
+}
+
+#cont-principal .cuerpo .nariz{
+    transform:rotate(364deg)
+}
+
+.texto h2{
+    font-size: 30px;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 520px;
+}
+
+.texto h3{
+    font-size: 25px;
+    align-items: center;
+    margin-left: 600px;
+}
